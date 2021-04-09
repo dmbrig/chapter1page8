@@ -1,0 +1,96 @@
+#+title: Math
+#+author: Daveeed
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* Number 29
+
+#+BEGIN_SRC C :exports both
+  float a = 7.5;
+  float b = 19.5;
+
+  float ans =  2 * (a + b);
+
+  printf("The perimeter of the parallelogram is: %.2f", ans);
+#+END_SRC
+
+#+RESULTS:
+: The perimeter of the parallelogram is: 54.00
+
+
+* Number 30
+
+
+#+BEGIN_SRC C :exports both
+  int a = 20;
+  int b = 16;
+  int c = 48;
+  int ans = 2 * a + b + c;
+
+  printf("The perimeter of the iscosoles trapazoid is: %d", ans);
+#+END_SRC
+
+#+RESULTS:
+: The perimeter of the iscosoles trapazoid is: 104
+
+* Number 31
+
+#+BEGIN_SRC C :exports both
+  int h = 6;
+  int b = 16;
+  int c = 48;
+  int ans = 6 * (b + c);
+
+  printf("The perimeter of the trapazoid is: %d", ans);
+#+END_SRC
+#+RESULTS:
+: The perimeter of the trapazoid is: 384
+
+* Number 32
+
+We use the formula:
+
+$$A = \pi r^2$$
+
+#+BEGIN_SRC C :exports both
+int r = 28;
+float pi = 3.141593;
+float ans = pi * r * r;
+
+printf("The perimeter of the area of a circle is: %f", ans);
+#+END_SRC
+
+#+RESULTS:
+: The perimeter of the area of a circle is: 2463.00878
+
+
+* Number 33
+
+#+BEGIN_SRC C :exports both
+float r = 2.00;
+float h = 3.00;
+float pi = 3.141593;
+float ans = 2 * (r + h) + pi * r;
+
+printf("The perimeter of the area of a circle is: %f", ans);
+#+END_SRC
+
+#+RESULTS:
+: The perimeter of the area of a circle is: 16.283186
+
+
+* Number 34
+
+
+#+BEGIN_SRC C :exports both
+int l = 14;
+int w = 12;
+int h = 10;
+double ans = 2 * (l * w + w * h + l * h);
+
+printf("The perimeter of the area of a circle is: %f", ans);
+#+END_SRC
+
+#+RESULTS:
+: The perimeter of the area of a circle is: 856.000000
+
+  
